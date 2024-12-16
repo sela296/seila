@@ -1,0 +1,92 @@
+* {
+  padding: 0px;
+  margin: 0px;
+}
+
+#utama {
+  background-image: url("tokoes.jpg");
+  background-size: cover;
+  height: 900px;
+}
+
+.header_isi {
+  width: 335px;
+  height: 230px;
+  padding: 180 0px 90px 480px;
+}
+
+.gambar {
+  background-color: rgba(170, 114, 123, 0.6); 
+  height: 330px;
+  border: 2px solid rgba(170, 114, 123, 1);
+}
+
+img {
+  width: 250px;
+  height: 150px;
+  margin-left: 50px;
+  margin-top: 25px;
+}
+
+.login_regis {
+  height: 35px;
+  width: 260px;
+  text-align: center;
+  color: black;
+  font-size: 17px;
+  border-radius: 9px;
+  background-color: rgba(225, 255, 255, 0.4); 
+  border: 3px solid #0288d1;
+  border-radius: 20px;
+  margin-top: 20px;
+  margin-left: 42px;
+}
+
+.chexbox {
+  font-size: 15px;
+  color: black;
+  margin-left: 45px;
+  margin-top: 10px;
+}
+
+.login_regis:hover {
+  border: 3px solid #fff;
+}
+
+.tombol_login:hover {
+  background-color: mediumspringgreen;
+  color: #0288d1;
+  font-size: 17px;
+  margin-left: 10px;
+}
+* {
+  text-decoration: none;
+  color: black;
+}
+
+#loading{
+  position: fixed;
+  left: 0px;
+  top: 0px;
+  width: 100%;
+  height: 100%;
+  z-index: 9999;
+  background: center no-repeat #fff;
+}
+
+@ webkit-keyfreames spin{
+  0%{-webkit-transform: rotate(0deg);}
+  100%{-webkit-transform: rotate(360deg);}
+}
+@keyframes spin {
+  0%{transform: rotate(0deg);}
+  100%{transform: rotate(360deg);}
+}
+.no-js #loader{display: none;}
+.js #loader{display: block;position: absolute;left: 100px;top: 0;}
+.loader{
+  border: 10px solid #f3f3f3;
+  border-radius: 50%;
+  border-top: 10px solid #3498db;
+  border-bottom: 10px solid #ffc107;
+}

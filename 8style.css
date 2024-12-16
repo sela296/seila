@@ -1,0 +1,12 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    background-image: url(latar.jpg);
+}
+
+#utama {
+
+    background-size: cover;
+    height: 800px;
+} 
+

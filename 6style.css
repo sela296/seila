@@ -1,0 +1,11 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+#utama {
+    background-image: url("kebun.jpg"); 
+    background-size: cover;
+    height: 900px;
+} 
+
